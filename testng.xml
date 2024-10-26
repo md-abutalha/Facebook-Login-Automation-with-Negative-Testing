@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/SQA/java-with-selenium-automation-official/HomeWorkByTalha/FacebookLoginPageAutomation/src/test/java/testcase">
+        <classes>
+            <class name="testcase.TestLoginPage">
+                <methods>
+                    <include name="testLoginWithValidCredentials"/>
+                    <include name="testLoginWithLongEmail"/>
+                    <include name="testLoginWithLongPassword"/>
+                    <include name="testLoginWithSpacesOnlyInPassword"/>
+                    <include name="testLoginWithSpacesOnlyInEmail"/>
+                    <include name="testLoginWithScriptInjectionInEmail"/>
+                    <include name="testLoginWithSQLInjectionInEmail"/>
+                    <include name="testLoginWithInvalidPhoneFormat"/>
+                    <include name="testLoginWithWhitespaceInPassword"/>
+                    <include name="testLoginWithSpecialCharactersInPassword"/>
+                    <include name="testLoginWithWhitespaceInEmail"/>
+                    <include name="testLoginWithEmptyCredentials"/>
+                    <include name="testLoginWithInvalidEmailFormat"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
