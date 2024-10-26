@@ -1,5 +1,5 @@
-# Facebook-Login-Automation-with-Negative-Testing
-echo "# Facebook Login Page Automation
+## Facebook-Login-Automation-with-Negative-Testing
+## Facebook Login Page Automation
 
 ## Overview
 This project focuses on automating the login functionality of Facebook’s web page, emphasizing negative test cases to assess the robustness of the login process against various invalid inputs.
